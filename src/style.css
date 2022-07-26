@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  border: solid 1px black;
+  font-family: 'Times New Roman', Times, serif
+}
+
+header {
+  display: flex;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+img.profilepic {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+ul.pagenav {
+  float: right;
+  font-size: 25px;
+}
+
+li.pagelist {
+  display: inline;
+ margin: 10px;
+ padding: 10 px;
+
+}
